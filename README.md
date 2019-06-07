@@ -28,6 +28,7 @@ make test_plot
 ## Syntax
 
 ### Running hDups
+
 ```
 usage: ./bin/hDups [options]
  -ifn1 <fn>: input fasta read1 file, can have more than one
@@ -48,7 +49,6 @@ For example:
 
 ### Plotting
 
-To plot replace MTABLE with the multiplicity table and ODIR with the output directory.
 ```
 usage: Rscript R/R_call.r R/plot_dup.r plot.dup.f ifn=<filename> odir=<plot directory>
 ifn: multiplicity table
