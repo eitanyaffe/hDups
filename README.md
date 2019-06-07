@@ -40,7 +40,7 @@ usage: hDups [options]
  -ifn2 <fn>: input fasta read2 file
  -ofn1 <fn>: output fasta read1
  -ofn2 <fn>: output fasta read2
- -mfn <fn>: multiplexcity output table
+ -mfn <fn>: multiplicity output table
  -sfn <fn>: stats output table
 ```
 

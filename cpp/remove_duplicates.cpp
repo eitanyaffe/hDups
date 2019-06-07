@@ -69,7 +69,7 @@ void usage(const char* name, UserParams& params)
   cout << " -ifn2 <fn>: input fasta read2 file" << endl;
   cout << " -ofn1 <fn>: output fasta read1" << endl;
   cout << " -ofn2 <fn>: output fasta read2" << endl;
-  cout << " -mfn <fn>: multiplexcity output table" << endl;
+  cout << " -mfn <fn>: multiplicity output table" << endl;
   cout << " -sfn <fn>: stats output table" << endl;
   fprintf(stderr, "example: %s -ifn1 A1 -ifn2 A2 -ifn1 B1 -ifn2 B2 -ofn1 O1 -ofn2 O2 -mfn m -sfn s\n", name);
   exit(1);
