@@ -36,13 +36,15 @@ make test_plot
 
 ```
 usage: hDups [options]
- -ifn1 <fn>: input fasta read1 file, can have more than one
+ -ifn1 <fn>: input fasta read1 file
  -ifn2 <fn>: input fasta read2 file
  -ofn1 <fn>: output fasta read1
  -ofn2 <fn>: output fasta read2
  -mfn <fn>: multiplexcity output table
  -sfn <fn>: stats output table
 ```
+
+Multiple pairs of input files allowed.
 
 For example:
 ```
