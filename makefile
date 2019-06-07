@@ -19,6 +19,6 @@ test:
 
 
 test_plot:
-	./R/R_call.r R/plot_dup.r plot.dup.f \
+	Rscript R/R_call.r R/plot_dup.r plot.dup.f \
 		ifn=$(CURDIR)/output/multiplicity.txt \
 		odir=$(CURDIR)/output/figures
