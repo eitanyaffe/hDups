@@ -4,25 +4,25 @@ Remove read duplicates from pair ended fastq files and computes the multiplicity
 
 ## Installation
 
-1. Clone repository:
+1. Clone repository.
 ```
 git clone https://github.com/eitanyaffe/hDups.git
 ```
 
-2. Build binary
+2. Build binary.
 ```
 cd hDups
 make all
 ```
 
-3. Run on small example
+3. Run on small example.
 ```
 make test
 ```
 
 3. Plot example
 ```
-make test_plot
+make test_plot.
 ```
 
 ## Syntax
@@ -50,7 +50,12 @@ For example:
 
 To plot replace MTABLE with the multiplicity table and ODIR with the output directory.
 ```
-Rscript R/R_call.r R/plot_dup.r plot.dup.f ifn=output/multiplicity.txt odir=output/figures
+usage: Rscript R/R_call.r R/plot_dup.r plot.dup.f ifn=<filename> odir=<plot directory>
+ifn: multiplicity table
+odir: output directory
 ```
 
 For example:
+```
+Rscript R/R_call.r R/plot_dup.r plot.dup.f ifn=output/multiplicity.txt odir=output/figures
+```
