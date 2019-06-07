@@ -15,12 +15,17 @@ cd hDups
 make all
 ```
 
-3. Run on small example.
+You can add hDups to your path or copy it to your local binary directory.
+
+## Example
+
+
+1. Run on small example.
 ```
 make test
 ```
 
-3. Plot example.
+2. Plot example.
 ```
 make test_plot
 ```
@@ -30,7 +35,7 @@ make test_plot
 ### Running hDups
 
 ```
-usage: ./bin/hDups [options]
+usage: hDups [options]
  -ifn1 <fn>: input fasta read1 file, can have more than one
  -ifn2 <fn>: input fasta read2 file
  -ofn1 <fn>: output fasta read1
