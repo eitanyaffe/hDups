@@ -31,8 +31,9 @@ plot.dup.f=function(ifn, odir)
     at = axTicks(2)
     plot.log.axis(at)
 
+    main = sprintf("%.3fM reads, %.3fM unique reads", sum(multi*count)/10^6, sum(count)/10^6)
     box()
-    title(xlab="molecule multiplicity", ylab="# reads")
+    title(xlab="molecule multiplicity", ylab="# reads", main=main, cex.main=1)
     points(multi, l.count, pch=19, col="darkblue")
     dev.off()
 
