@@ -58,8 +58,8 @@ For example:
 
 ```
 usage: Rscript R/R_call.r R/plot_dup.r plot.dup.f ifn=<filename> odir=<plot directory>
-ifn: multiplicity table
-odir: output directory
+ ifn: multiplicity table
+ odir: output directory
 ```
 
 For example:
