@@ -6,7 +6,7 @@ Remove read duplicates from pair ended fastq files and computes the multiplicity
 
 1. Clone repository:
 ```
-clone https://github.com/eitanyaffe/hDups.git
+git clone https://github.com/eitanyaffe/hDups.git
 ```
 
 2. Build binary
