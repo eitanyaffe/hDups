@@ -20,9 +20,9 @@ make all
 make test
 ```
 
-3. Plot example
+3. Plot example.
 ```
-make test_plot.
+make test_plot
 ```
 
 ## Syntax
