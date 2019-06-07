@@ -66,7 +66,7 @@ void usage(const char* name, UserParams& params)
 {
   fprintf(stderr, "usage: %s [options]\n", name);
   cout << " -ifn1 <fn>: input fasta read1 file, can have more than one" << endl;
-  cout << " -ifn2 <fn>: input fasta read2 file" << endl;
+  cout << " -ifn2 <fn>: input fasta read2 file, can have more than one" << endl;
   cout << " -ofn1 <fn>: output fasta read1" << endl;
   cout << " -ofn2 <fn>: output fasta read2" << endl;
   cout << " -mfn <fn>: multiplicity output table" << endl;
