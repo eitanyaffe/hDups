@@ -27,6 +27,7 @@ make test_plot
 
 ## Syntax
 
+### Running hDups
 ```
 usage: ./bin/hDups [options]
  -ifn1 <fn>: input fasta read1 file, can have more than one
@@ -35,5 +36,21 @@ usage: ./bin/hDups [options]
  -ofn2 <fn>: output fasta read2
  -mfn <fn>: multiplexcity output table
  -sfn <fn>: stats output table
-example: ./bin/hDups -ifn1 A_R1.fastq -ifn2 A_R2.fastq -ifn1 B_R1.fastq -ifn2 B_R2.fastq -ofn1 O_R1.fastq -ofn2 O_R2.fastq -mfn multi.txt -sfn summary.txt
 ```
+
+For example:
+```
+./bin/hDups \
+		-ifn1 example/R1.fastq -ifn2 example/R2.fastq \
+		-ofn1 output/unique_R1.fastq -ofn2 output/unique_R2.fastq \
+		-mfn output/multiplicity.txt -sfn output/summary.txt
+```
+
+### Plotting
+
+To plot replace MTABLE with the multiplicity table and ODIR with the output directory.
+```
+Rscript R/R_call.r R/plot_dup.r plot.dup.f ifn=output/multiplicity.txt odir=output/figures
+```
+
+For example:
