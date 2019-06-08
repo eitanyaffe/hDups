@@ -1,6 +1,6 @@
 # hDups
 
-Remove read duplicates from pair ended fastq files and computes the multiplicity table.
+Remove read duplicates from pair ended fastq files, generate and plot the multiplicity table.
 
 ## Installation
 
